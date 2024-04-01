@@ -21,7 +21,7 @@ export default function Page() {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-1.5">
             <h1 className="text-2xl font-bold">{RESUME_DATA.name}</h1>
-            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty font-mono text-sm text-muted-foreground ">
               {RESUME_DATA.about}
             </p>
             <p className="max-w-md items-center text-pretty font-mono text-xs text-muted-foreground">
@@ -87,14 +87,14 @@ export default function Page() {
             </div>
           </div>
 
-          <Avatar className="size-28">
+          {/* <Avatar className="size-28">
             <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
-          </Avatar>
+          </Avatar> */}
         </div>
         <Section>
           <h2 className="text-xl font-bold">About</h2>
-          <p className="text-pretty font-mono text-sm text-muted-foreground">
+          <p className="whitespace-pre-line text-pretty font-mono text-sm text-muted-foreground">
             {RESUME_DATA.summary}
           </p>
         </Section>
@@ -131,8 +131,15 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="white- mt-2 whitespace-pre-line">
-                  {work.description}
+                <CardContent className=" mt-2 whitespace-pre-line">
+                  <ul className="list-inside list-disc text-pretty font-mono text-sm text-muted-foreground">
+                    {work.description.map((desc, index) => (
+                      <li
+                        key={index}
+                        dangerouslySetInnerHTML={{ __html: desc || "" }}
+                      />
+                    ))}
+                  </ul>
                 </CardContent>
               </Card>
             );
