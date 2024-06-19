@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       title: "Senior Frontend Developer",
       logo: ParabolLogo,
       start: "2023",
-      end: "2024",
+      end: "至今",
       description: [
         "從 0 到 1 建置 Next 專案，使用 <span style='color: rgb(217 119 6); font-weight: semibold;'>Tailwind CSS</span> 與 <span style='color: rgb(217 119 6); font-weight: semibold;'> Shadcn/ui </span> 加速切版與建置 UI 元件、透過 <span style='color: rgb(217 119 6); font-weight: semibold;'>Zod</span> 與 <span style='color: rgb(217 119 6); font-weight: semibold;'>React-hook-form</span> 簡化表單檢核流程、使用 <span style='color: rgb(217 119 6); font-weight: semibold;'>SWR</span> 優化頁面資料讀取。",
         ,
