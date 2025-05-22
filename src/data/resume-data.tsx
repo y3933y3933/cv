@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       title: "Senior Frontend Developer",
       // logo: ParabolLogo,
       start: "2023",
-      end: "Present",
+      end: "2024",
       description: [
         "Spearheaded the development of a Next.js project from inception, leveraging Tailwind CSS and Shadcn/ui to accelerate UI component creation and streamline the design process.",
         "Led the maintenance and refactoring of a React-based admin dashboard, improving performance and code maintainability.",
