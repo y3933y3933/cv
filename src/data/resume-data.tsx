@@ -26,7 +26,7 @@ export const RESUME_DATA = {
   locationLink: "https://maps.app.goo.gl/xEAVZEACqQwGyaV77",
   about: "Frontend Developer",
   summary:
-    "4 years of experience as a frontend developer, proficient in building frontend projects from scratch. Skilled in React/Next, Angular, TypeScript, and Tailwind CSS.",
+    "I’m a software developer with 4 years of frontend experience, proficient in JavaScript, TypeScript, and frameworks like React and Angular. \n\nRecently, I’ve expanded into backend development using TypeScript, Express.js, Drizzle ORM, PostgreSQL, and am learning Go.",
   avatarUrl: "",
   personalWebsiteUrl: "https://blog-flax-five.vercel.app/",
   contact: {
@@ -55,6 +55,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Performics",
+      link: "https://taiwan.publicisgroupe.com",
+      badges: [],
+      title: "Frontend Developer",
+      start: "2024",
+      end: "2024",
+      description: [
+        "Developed automation scripts using Google Apps Script to integrate Google Analytics data with internal tools.",
+      ],
+    },
+    {
       company: "OneClass",
       link: "https://tutor.oneclass.com.tw/",
       badges: [],
@@ -63,9 +74,9 @@ export const RESUME_DATA = {
       start: "2023",
       end: "2024",
       description: [
-        "Spearheaded the development of a Next.js project from inception, leveraging Tailwind CSS and Shadcn/ui to accelerate UI component creation and streamline the design process.",
-        "Led the maintenance and refactoring of a React-based admin dashboard, improving performance and code maintainability.",
-        "Championing the creation and maintenance of comprehensive technical documentation",
+        "Led the development of a Next.js project, leveraging Tailwind CSS and Shadcn/ui to accelerate UI component creation and streamline design processes.",
+        "Maintained and refactored a React-based admin dashboard, improving performance and code maintainability.",
+        "Created and maintained comprehensive technical documentation for the team.",
         "Mentoring junior engineers, facilitating their professional growth and skill development",
       ],
     },
@@ -100,14 +111,36 @@ export const RESUME_DATA = {
   skills: [
     "JavaScript",
     "TypeScript",
+    "Go",
+    "PostgreSQL",
+    "Express",
+    "Gin",
     "React",
-    "Next",
     "Angular",
+    "Next",
     "Angular Material",
-    "Rxjs",
     "Tailwind.css",
+    "Shadcn/ui",
+    "Rxjs",
+    "Tanstack Query",
   ],
   projects: [
+    {
+      title: "Todo API",
+      techStack: [
+        "TypeScript",
+        "Express.js",
+        "Drizzle ORM",
+        "PostgreSQL",
+        "JWT Authentication",
+      ],
+      description:
+        "A backend API service for managing todo items, supporting CRUD operations. The service includes secure user authentication with JWT and uses PostgreSQL for data storage.",
+      link: {
+        label: "Todo API Repository",
+        href: "https://github.com/y3933y3933/todo-api-ts", // Replace with your actual repository link
+      },
+    },
     {
       title: "OneClass Now",
       techStack: [
